@@ -12,7 +12,7 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="3" fill="1" visible="yes" active="yes"/>
@@ -784,10 +784,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <via x="4.445" y="24.765" extent="1-16" drill="0.3048"/>
 <via x="3.81" y="24.13" extent="1-16" drill="0.3048"/>
 <via x="20.955" y="8.89" extent="1-16" drill="0.3048"/>
-<wire x1="8.255" y1="22.86" x2="8.255" y2="24.13" width="0.1524" layer="16"/>
 <wire x1="8.255" y1="22.86" x2="7.993" y2="22.6695" width="0.1524" layer="16"/>
-<wire x1="7.62" y1="24.765" x2="8.255" y2="24.13" width="0.1524" layer="16"/>
-<wire x1="6.985" y1="24.765" x2="7.62" y2="24.765" width="0.1524" layer="16"/>
 <wire x1="3.81" y1="19.685" x2="5.003" y2="19.685" width="0.4064" layer="16"/>
 <wire x1="5.003" y1="19.685" x2="5.4295" y2="19.2585" width="0.4064" layer="16"/>
 <wire x1="7.6295" y1="19.2585" x2="7.6295" y2="18.4055" width="0.4064" layer="16"/>
@@ -800,6 +797,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <via x="8.89" y="13.335" extent="1-16" drill="0.3048"/>
 <via x="10.414" y="13.335" extent="1-16" drill="0.3048"/>
 <via x="11.7475" y="7.239" extent="1-16" drill="0.3048"/>
+<wire x1="8.255" y1="22.86" x2="8.255" y2="24.765" width="0.4064" layer="16"/>
 </signal>
 <signal name="RX_GPS">
 <contactref element="U1" pad="4"/>
